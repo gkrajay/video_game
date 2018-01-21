@@ -15,36 +15,15 @@ function preload() {
  mathimg = loadImage('mathpic.png');
  gkimg = loadImage('gkpic.png');
  dogimg = loadImage('dog.png');
- actionimg = loadImage('action.jpg');
+
  bacteriaimg = loadImage('bacteria.jpg');
  birdimg = loadImage('bird.jpg');
- blueplanetimg = loadImage('blueplanet.jpg');
  bonesimg = loadImage('bones.jpg');
  chemistimg = loadImage('chemistry.jpg');
- columbusimg = loadImage('columbus.jpg');
- cowimg = loadImage('cow.jpg');
- dnaimg = loadImage('dna.jpg');
- einsteinimg = loadImage('einstein.jpg');
- lakeimg = loadImage('lake.jpg');
- languageimg = loadImage('language.png');
- lungimg = loadImage('lung.jpg');
- monalisaimg = loadImage('monalisa.jpg');
- mountainimg = loadImage('mountain.jpg'); 
- neanderthalimg = loadImage('neander.jpg');
- newtonimg = loadImage('newton.jpg');
- nuclearimg = loadImage('nuclear.jpg');
- paperimg = loadImage('paper.jpg');
- periodicimg = loadImage('periodic.png');
- riverimg = loadImage('river.jpg');
+ 
  robotimg = loadImage('robot.jpg');
  solarimg = loadImage('solar.jpg');
- sportimg = loadImage('sports.png');
- tallimg = loadImage('tallmountain.jpg');
- tempimg = loadImage('temperature.png');
- trumpimg = loadImage('trump.png');
- unitedstatesimg = loadImage('unitedstates.png');
- waterimg = loadImage('water.png');
- wwwimg = loadImage('www.png');
+
  
  
 }
