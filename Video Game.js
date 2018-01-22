@@ -15,12 +15,16 @@ function preload() {
  mathimg = loadImage('mathpic.png');
  gkimg = loadImage('gkpic.png');
  dogimg = loadImage('dog.png');
-
+ actionimg = loadImage('action.jpg');
  bacteriaimg = loadImage('bacteria.jpg');
  birdimg = loadImage('bird.jpg');
+ blueplanetimg = loadImage('blueplanet.jpg');
  bonesimg = loadImage('bones.jpg');
  chemistimg = loadImage('chemistry.jpg');
- 
+ columbusimg = loadImage('columbus.jpg');
+ cowimg = loadImage('cow.jpg');
+ dnaimg = loadImage('dna.jpg');
+
  robotimg = loadImage('robot.jpg');
  solarimg = loadImage('solar.jpg');
 
@@ -45,9 +49,6 @@ function setup() {
   
  entering = createElement('h1', 'Enter Your Name');
  entering.position(470,285);
- fill(0);
- textSize(18); 
- text("EARLY ACCESS", 500, 420)
  
  
 }
@@ -56,18 +57,24 @@ function draw(){
  strokeWeight(10);
  rectMode(CENTER);
  rect(width/2, height/2,400,200);
+	drawSprites();
 
+ 
 
- fill(255,255,0);
- strokeWeight(1);
- ellipse(mouseX,mouseY, 25, 25);
+	  //create a sprite at the mouse position and store it in a temporary variable
   if(mouseIsPressed){
- 	ellipse(mouseX,mouseY, 50,50);
- }else{
- 	ellipse(mouseX,mouseY, 25,25);
- }
-
+  	var s = createSprite(mouseX, mouseY, 30, 30);	
+  	s.velocity.x = random(-5, 5);
+   s.velocity.y = random(-5, 5);
+  }
 }
+  
+  //if no image or animation is associated it will be a rectancle of the specified size
+  //and a random color
+  
+  //now you can use the variable to set properties
+  //e.g. a random velocity on the x and y coordinates
+  
 
 
 
@@ -147,7 +154,7 @@ function choice(){
   button6.size(150,150);
   button6.position(1000,550);
   button6.mousePressed(quit);
- 
+  
 
   
  
