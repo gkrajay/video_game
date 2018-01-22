@@ -45,6 +45,9 @@ function setup() {
   
  entering = createElement('h1', 'Enter Your Name');
  entering.position(470,285);
+ fill(0);
+ textSize(18); 
+ text("EARLY ACCESS", 500, 420)
  
  
 }
