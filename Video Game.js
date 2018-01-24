@@ -24,7 +24,7 @@ function preload() {
  columbusimg = loadImage('columbus.jpg');
  cowimg = loadImage('cow.jpg');
  dnaimg = loadImage('dna.jpg');
-
+ lungimg = loadImage('lung.jpg');
  robotimg = loadImage('robot.jpg');
  solarimg = loadImage('solar.jpg');
 
