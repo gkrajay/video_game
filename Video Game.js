@@ -10,7 +10,6 @@ var geoimg;
 var gkimg;
 var dogimg;
 function preload() {
- music = loadSound('bgm.mp3');
  geoimg = loadImage('geopic.png');
  mathimg = loadImage('mathpic.png');
  gkimg = loadImage('gkpic.png');
@@ -36,9 +35,7 @@ function setup() {
  
  createCanvas(1280,720);
  background(255);
- 
- music.loop();
- loop();
+
  
  input = createInput();
  input.position(500,360); 
